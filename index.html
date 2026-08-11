@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StingWellCom — Extensions &amp; Apps</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #555555;
+    --link: #0b57d0;
+    --border: #dddddd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --fg: #e8e8e8;
+      --muted: #b0b0b0;
+      --link: #8ab4f8;
+      --border: #333333;
+    }
+  }
+  html, body {
+    background: var(--bg);
+    color: var(--fg);
+  }
+  body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.25rem;
+  }
+  p {
+    margin: 0.75rem 0;
+    color: var(--muted);
+  }
+  ul.products {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+  }
+  ul.products li {
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin: 0 0 0.75rem;
+  }
+  ul.products a {
+    color: var(--link);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  ul.products a:hover {
+    text-decoration: underline;
+  }
+  ul.products .desc {
+    display: block;
+    color: var(--muted);
+    font-weight: 400;
+    margin-top: 0.25rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>StingWellCom</h1>
+
+<ul class="products">
+  <li>
+    <a href="cal-careers-assistant/">CalCareers Assistant — Privacy Policy</a>
+    <span class="desc">Browser extension for calcareers.ca.gov job seekers.</span>
+  </li>
+</ul>
+
+</body>
+</html>
